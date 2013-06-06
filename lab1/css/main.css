@@ -1,0 +1,50 @@
+			h1{
+				color: blue;
+			}
+			h2{
+				color: purple;
+			}
+			h3{
+				color: red;
+			}
+			h1, h2, h3{
+				color: magenta;
+			}
+			a:link{
+				color: silver;
+			}
+			a:hover{
+				color: green;
+			}
+			a:active{
+				color: red;
+			}
+			input:focus{
+				background-color: #ff0000
+			}
+			ul li{
+				color: orange;
+			}
+			p:first-letter{
+				color: pink;
+			}
+			p:first-line{
+				color: purple;
+			}
+			ol li{
+				color: silver;
+			}
+			#main-content{
+				width: 500px;
+			}
+			#content{
+				width: 500px
+			}
+			.important{
+				color: orange;
+				font-weight: bold;
+			}
+			*{
+				color: magenta;
+				font-family: Arial;
+			}
