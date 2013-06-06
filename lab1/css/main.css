@@ -1,3 +1,6 @@
+		   *{
+				background-color: #d0e9ff;
+			}
 			h1{
 				color: blue;
 			}
@@ -10,26 +13,37 @@
 			h1, h2, h3{
 				color: magenta;
 			}
-			a:link{
+			#nav a{
+				font-weight: bold;
+				color: brown;
+			}
+			#nav a:link{
 				color: silver;
 			}
-			a:hover{
+			#nav a:visited{
+				color: orange;
+			}
+			#nav a:hover{
 				color: green;
 			}
-			a:active{
+			#nav a:active{
 				color: red;
 			}
-			input:focus{
-				background-color: #ff0000
+			#nav input:focus{
+				background-color: #ff0000;
 			}
 			ul li{
 				color: orange;
 			}
 			p:first-letter{
-				color: pink;
+				color: blue;
 			}
 			p:first-line{
 				color: purple;
+			}
+			#num {
+				font-weight: bold;
+				font-size: 15px;
 			}
 			ol li{
 				color: silver;
@@ -44,7 +58,6 @@
 				color: orange;
 				font-weight: bold;
 			}
-			*{
-				color: magenta;
-				font-family: Arial;
-			}
+		    .footer{
+		    	font: 12px Verdana;
+		    }

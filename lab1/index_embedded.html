@@ -4,6 +4,9 @@
 		<title>DWS Lab 1 Embedded CSS</title>
 		<meta charset="utf-8"/>
 		<style type="text/css">
+			*{
+				background-color: #d0e9ff;
+			}
 			h1{
 				color: blue;
 			}
@@ -16,26 +19,37 @@
 			h1, h2, h3{
 				color: magenta;
 			}
-			a:link{
+			#nav a{
+				font-weight: bold;
+				color: brown;
+			}
+			#nav a:link{
 				color: silver;
 			}
-			a:hover{
+			#nav a:visited{
+				color: orange;
+			}
+			#nav a:hover{
 				color: green;
 			}
-			a:active{
+			#nav a:active{
 				color: red;
 			}
-			input:focus{
-				background-color: #ff0000
+			#nav input:focus{
+				background-color: #ff0000;
 			}
 			ul li{
 				color: orange;
 			}
 			p:first-letter{
-				color: pink;
+				color: blue;
 			}
 			p:first-line{
 				color: purple;
+			}
+			#num {
+				font-weight: bold;
+				font-size: 15px;
 			}
 			ol li{
 				color: silver;
@@ -50,17 +64,16 @@
 				color: orange;
 				font-weight: bold;
 			}
-			*{
-				color: magenta;
-				font-family: Arial;
-			}
+		    .footer{
+		    	font: 12px Verdana;
+		    }
 		</style>
 	</head>
 	<body>
 	<!-- Embedded CSS -->
 	<!-- All Selector elements used -->
 		<h1>Company Name</h1>
-		<ul>
+		<ul id="nav">
 			<li><a href="#">Nav button</a></li>
 			<li><a href="#">Nav button</a></li>
 			<li><a href="#">Nav button</a></li>
@@ -72,7 +85,7 @@
 		<p class="important">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
 		<h2>Section Title</h2>
 		<p id="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
-		<ol>
+		<ol id="num">
 			<li><span>sample sequence 1</span></li>
 			<li><span>sample sequence 2</span></li>
 			<li><span>sample sequence 3</span></li>
