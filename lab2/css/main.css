@@ -1,0 +1,112 @@
+        	/* Bryant, Samantha
+				DWS - Lab 2 */
+				
+ 		   	*{
+ 		   		background-color: #075aa1;
+ 		   	}
+			body{
+				color: #ebf0cd;
+				width: 960px;
+ 		   		font: 12px Arial;
+			}
+			h1{
+				color: #8da6bb;
+				font-size: 40px;
+				font-family: charcoal;
+				font-weight: bold;
+				font-style: normal;
+				text-decoration: underline;
+				text-align: center;
+				margin-left: 35px;
+				letter-spacing: .2em;
+				text-shadow: 2px 2px 3px #111;
+			}
+			h2{
+				color: #e1e7ed;
+				font: 20px Verdana, bold;
+				line-height: 5.5px;
+				text-decoration: underline;
+				margin-left: 90px;
+			}
+			h3{
+				color: #e1e7ed;
+				font: 15px Verdana, bold;
+				letter-spacing: 0.2em;
+				margin-left: 90px;
+			}
+			ul{
+				text-align: center;
+				word-spacing: 2em;
+			}
+			ul li{
+				display: inline;
+				font: 15px "Arial Black";	
+			}
+			
+			/* Navigation */
+			
+			#nav{
+				text-align: center;
+				margin-top: -20px;
+				margin-left: 0px;
+				font-variant: small-caps;
+			}
+			#nav li{
+				display: inline;
+			}
+			#nav a{
+				color: #5115b7;
+				font-weight: bold;
+			}
+			#nav a:link{
+				color: green;
+			}
+			#nav a:visited{
+				color: green;
+			}
+			#nav a:hover{
+				color: white; 
+			}
+			#nav a:active{
+				color: yellow;
+			}
+			
+			/* Moved image to center of page */
+			
+			img{
+				top: 20%;
+				left: 17%;
+				margin-left: 232px;
+				margin-top: 10px;
+				vertical-align: middle;
+			}
+			.opacity65{
+				opacity: 0.65;
+			}
+			p{
+				font: normal 12px arial;
+				text-indent: 1em;
+				margin-left: 90px;
+			}
+			
+			/* Adjust the first letter of every paragraph */
+			
+			p:first-letter{
+				color: #fbdf7e;
+				text-transform: capitalize;
+				font-size: 20px;
+			}
+			#num{
+				font-weight: bold;
+				font-size: 12px;
+				list-style-type: decimal-leading-zero;
+			}
+			ol li{
+				color: rgba(62, 3, 75, 35);
+				margin-left: 125px;
+			}
+		    .footer{
+		    	font: italic 12px Arial;
+		    	text-align: center;
+		    	text-transform: lowercase;
+		    }
