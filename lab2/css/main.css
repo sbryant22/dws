@@ -23,15 +23,14 @@
 			}
 			h2{
 				color: #e1e7ed;
-				font: 20px Verdana, bold;
+				font: 25px Verdana, bold;
 				line-height: 5.5px;
 				text-decoration: underline;
 				margin-left: 90px;
 			}
 			h3{
 				color: #e1e7ed;
-				font: 15px Verdana, bold;
-				letter-spacing: 0.2em;
+				font: 20px Verdana, bold;
 				margin-left: 90px;
 			}
 			ul{
@@ -59,16 +58,16 @@
 				font-weight: bold;
 			}
 			#nav a:link{
-				color: green;
+				color: blue;
 			}
 			#nav a:visited{
-				color: green;
+				color: yellow;
 			}
 			#nav a:hover{
 				color: white; 
 			}
 			#nav a:active{
-				color: yellow;
+				color: purple;
 			}
 			
 			/* Moved image to center of page */
@@ -97,8 +96,7 @@
 				font-size: 20px;
 			}
 			#num{
-				font-weight: bold;
-				font-size: 12px;
+				font: 14px bold;
 				list-style-type: decimal-leading-zero;
 			}
 			ol li{
