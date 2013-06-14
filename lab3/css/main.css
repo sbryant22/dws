@@ -59,7 +59,7 @@ nav a:hover{
 	list-style: none;
 }
 #gallery li{
-	width: 160px;
+	width: 140px;
 	float: left;	
 }
 #more_info{
@@ -71,11 +71,11 @@ nav a:hover{
 
 #left{
 	clear: both;
-	width: 460px;
+	width: 430px;
 	float: left;
 }
 #right{
-	width: 460px;
+	width: 365px;
 	float: right;
 }
 
