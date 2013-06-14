@@ -71,11 +71,11 @@ nav a:hover{
 
 #left{
 	clear: both;
-	width: 480px;
+	width: 460px;
 	float: left;
 }
 #right{
-	width: 500px;
+	width: 460px;
 	float: right;
 }
 
