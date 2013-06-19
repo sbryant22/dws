@@ -168,7 +168,7 @@ img{
 	border-top: 3px solid #3d9ca8;
 	border-bottom: 3px solid #3d9ca8;
 	border-right: 2px solid #3d9ca8;
-	border-left: 2px solid #3d9ca8;
+	border-left: 2px solid #3d9ca8;/* shorthand for border wasn't working so had to do longhand coding */
 	box-shadow: 0 0 20px #010707;  
 }
 #gal li{
