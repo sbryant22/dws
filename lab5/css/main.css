@@ -187,7 +187,7 @@ footer{
 	nav li{
 		font-size: 0.875em; /* 14px */
 		padding-bottom: 50%; /* 20px / 400px = 0.05% */
-		width: 5%;
+		width: -5%;
 	}
 	#gallery li{
 		width: 31.818182%;
