@@ -294,10 +294,12 @@ h4{
 #map{
 	float: right;
 	position: absolute;
+	width: 150px;
+	height: 500px;
 	padding-left: 215px;
 	padding-right: 70px;
-	margin-top: 150px;
-	margin-left: 330px;
+	margin-top: 80px;
+	margin-left: 300px;
 }	
 
 
