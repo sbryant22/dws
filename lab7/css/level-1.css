@@ -1,0 +1,64 @@
+/*-----Bryant, Samantha - DWS Lab7-----*/
+
+#advanced-search{
+	width: 960px;
+	margin: 0 auto;
+}
+
+/*------Container------*/
+
+form{
+	width: 800px;
+	margin: 0 auto;
+}
+fieldset{
+	border: 1px solid #00658d;
+}
+fieldset div{
+	float: left;
+}
+
+/*--------Search For---------*/
+
+#words{
+	margin: 15px 15px 0 5px;
+}
+#keywords{
+	margin: 10px 15px 0 5px;
+	width: 185px;
+	border-radius: 5px;
+}
+#keywords:focus{
+	border: 2px solid #231f18;
+}
+
+/*------Search In----------*/
+
+#searchin{
+	margin: 10px 15px 0 2px;
+}
+
+/*--------Search button-------*/
+
+.controls input{
+	width: 80px;
+	height: 30px;
+	background: rgb(179,220,237); /* Old browsers */
+	background: -moz-linear-gradient(left, rgba(179,220,237,1) 0%, rgba(41,184,229,1) 50%, rgba(188,224,238,1) 100%); /* FF3.6+ */
+	background: -webkit-linear-gradient(left, rgba(179,220,237,1) 0%,rgba(41,184,229,1) 50%,rgba(188,224,238,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -ms-linear-gradient(left, rgba(179,220,237,1) 0%,rgba(41,184,229,1) 50%,rgba(188,224,238,1) 100%); /* IE10+ */
+	border-radius: 5px;
+	border: 0;
+	margin: 3px 0 0 25px;
+}
+.controls input:hover{
+	width: 80px;
+	height: 30px;
+	background: rgb(235,233,249); /* Old browsers */
+	background: -moz-linear-gradient(left, rgba(235,233,249,1) 0%, rgba(216,208,239,1) 50%, rgba(206,199,236,1) 51%, rgba(193,191,234,1) 100%); /* FF3.6+ */
+	background: -webkit-linear-gradient(left, rgba(235,233,249,1) 0%,rgba(216,208,239,1) 50%,rgba(206,199,236,1) 51%,rgba(193,191,234,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -ms-linear-gradient(left, rgba(235,233,249,1) 0%,rgba(216,208,239,1) 50%,rgba(206,199,236,1) 51%,rgba(193,191,234,1) 100%); /* IE10+ */
+	border-radius: 5px;
+	border: 0;
+	margin: 3px 0 0 25px;
+}

@@ -1,0 +1,64 @@
+/*------Bryant, Samantha - DWS Lab 7------*/
+
+#container{
+	width: 960px;
+	margin: 0 auto;
+}
+
+/*-------Container------*/
+
+form{
+	width: 440px;
+	margin: 0 auto;
+}
+fieldset{
+	width: 420px;
+	margin: 0 auto;
+	border: 1px solid #bebebe;
+	border-bottom: 1px solid #bebebe;
+}
+fieldset div{
+	margin-top: 13px;
+}
+#name{
+	margin-left: 79px;
+	width: 250px;
+}
+#name:focus{
+	margin-left: 75px;
+	width: 260px;
+}
+#email{
+	margin-left: 28px;
+	width: 250px;
+}
+#email:focus{
+	margin-left: 23px;
+	width: 260px;
+}
+
+/*-------------Feedback Section----------------*/
+
+#feedback_label{
+	float: left;
+}
+.feedback{
+	margin-left: 62px;
+	border-radius: 2px;
+}
+
+/*---------------Submit Button--------*/
+
+.controls input{
+	float: right;
+	width: 150px;
+	margin-right: 10px;
+	background: #3fb201;
+}
+.controls input:hover{
+	float: right;
+	width: 150px;
+	margin-right: 10px;
+	background: #abe9ac;
+	box-shadow: 0 0 5px #222;
+}

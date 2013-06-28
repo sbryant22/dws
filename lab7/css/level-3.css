@@ -1,0 +1,131 @@
+/*------Bryant, Samantha - DWS Lab 7-------*/
+
+#container{
+	width: 960px;
+	margin: 0 auto;
+}
+
+/*-----Container-------*/
+
+h1{
+	float: left;
+	margin: 0 0 15px 100px;
+	font-size: 30px;
+}
+fieldset{
+	border: 1px solid #00658d;
+	border-bottom: 1px solid #656565;
+}
+.log-in{
+	font-size: 65%;
+	float: right;
+	margin: 10px 265px 15px 0;
+}
+.log-in a{
+	font-size: 115%;
+	color: #0276d0;
+}
+
+/*-----Form-------*/
+
+form{
+	width: 490px;
+	margin: 15px auto 0;
+}
+.introduction strong{
+	float: right;
+	overflow: hidden;
+	margin: 15px 9px 0 0;
+	font-size: 65%;
+	color: #df4c44;
+}
+fieldset div{
+	margin-top: 10px;
+}
+#email{
+	width: 300px;
+	margin-left: 15px;
+}
+#email:focus{
+	width: 310px;
+	margin-left: 15px;
+}
+#password{
+	width: 300px;
+	margin-left: 31px;
+}
+#password:focus{
+	width: 310px;
+	margin-left: 31px;
+}
+#password_confirmation{
+	width: 300px;
+	margin-left: 19px;
+}
+#profile_link{
+	width: 196px;
+}
+#profile_link:focus{
+	width: 206px;
+}
+
+/*------Date of Birth Section------*/
+
+#section-dob{
+	width: 423px;
+}
+#section-dob div{
+	float: left;
+	overflow: hidden;
+}
+#dob_month{
+	margin: 0 27px 5px 3px;
+	border-radius: 5px;
+}
+#dob_day{
+	margin: 0 27px 5px 3px;
+	border-radius: 5px;
+}
+#dob_year{
+	margin: 0 0 5px 3px;
+	border-radius: 5px;
+}
+
+/*---------Agreement Section--------*/
+
+.note{
+	float: right;
+	clear: both;
+	margin: 8px 4px 0 0;
+	font-size: 65%;
+}
+#field-agree-tos ul{
+	list-style: none;
+	padding: 0;
+}
+#field-agree-tos label{
+	font-size: 90%;
+}
+#field-agree-tos label a{
+	font-size: 110%;
+}
+
+/*-------Submit Button-------*/
+
+#submit{
+	float: right;
+	width: 93px;
+	height: 25px;
+	background: #0a5abe;
+	border: 0px;
+	border-radius: 5px;
+	color: #fff;
+}
+#submit:hover{
+	float: right;
+	width: 93px;
+	height: 25px;
+	background: #23bcfb;
+	border-radius: 5px;
+	color: #022c3d;
+}	
